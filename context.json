@@ -4,6 +4,7 @@
         "schema": "http://schema.org/",
         "UniProtID": "https://www.uniprot.org/",
         "GeneID": "https://www.ncbi.nlm.nih.gov/gene/",
+        "LocusID": "https://en.wikipedia.org/wiki/Locus_(genetics)",
         "Taxon": {"@id": "https://en.wikipedia.org/wiki/Taxon", "@type": "@id"},
         "HostOrganism": {"@id": "https://en.wikipedia.org/wiki/Host_(biology)", "@type": "@id"},
         "GeneOntology": "https://amigo.geneontology.org/amigo"
