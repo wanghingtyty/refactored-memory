@@ -29,11 +29,6 @@
         "@id": "http://purl.uniprot.org/core/mnemonic",
         "@type": "xsd:string"
       },
-      "Taxon": 
-      {
-        "@id": "http://purl.uniprot.org/core/Taxon",
-        "@type": "@id"
-      },
       "organism": "http://purl.uniprot.org/core/organism",
       "taxonomy": 
       {
