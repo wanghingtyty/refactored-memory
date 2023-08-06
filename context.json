@@ -1,27 +1,11 @@
 {
     "@context":
-    {
-      "xsd": "http://www.w3.org/2001/XMLSchema#",
-      "uniprot": "http://purl.uniprot.org/core/",
-      "UniProtID": 
+     {
+      "xsd": "http://www.w3.org/2002/07/owl#",
+      "uniprot": "http://purl.uniprot.org/core",
+      "hasDbXref": 
       {
-        "@id": "https://bioportal.bioontology.org/ontologies/EDAM?p=classes&conceptid=data_2291",
-        "@type": "xsd:string"
-      },
-      "Gene":"http://purl.uniprot.org/core/Gene",
-      "GeneID":
-      {
-        "@id": "http://purl.uniprot.org/database/GeneID",
-        "@type": "xsd:integer"
-      },
-      "prefLabel": 
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
-        "@type": "xsd:string"
-      },
-      "altLabel": 
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+        "@id": "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
         "@type": "xsd:string"
       },
       "mnemonic": 
@@ -29,16 +13,23 @@
         "@id": "http://purl.uniprot.org/core/mnemonic",
         "@type": "xsd:string"
       },
-      "organism": "http://purl.uniprot.org/core/organism",
-      "taxonomy": 
+	   "organism":"http://purl.uniprot.org/core/organism",
+      "has_gene_template":"http://purl.obolibrary.org/obo/pr#has_gene_template",
+      "hasRelatedSynonym": 
       {
-        "@id": "http://purl.uniprot.org/taxonomy/",
-        "@type": "xsd:integer"
-      },
-      "fullName": 
-      {
-        "@id": "http://purl.uniprot.org/core/fullName",
+        "@id": "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
         "@type": "xsd:string"
-      }
+      },
+      "label": 
+      {
+        "@id": "http://www.w3.org/2002/07/owl#label",
+        "@type": "xsd:string"
+      },
+      "hasExactSynonym": 
+      {
+        "@id": "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+        "@type": "xsd:string"
+      },
+      "classifiedWith":"http://purl.uniprot.org/core/classifiedWith"
     }
 }
