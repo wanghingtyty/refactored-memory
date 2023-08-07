@@ -13,7 +13,7 @@
         "@id": "http://purl.uniprot.org/core/mnemonic",
         "@type": "xsd:string"
       },
-	   "organism":"http://purl.uniprot.org/core/organism",
+      "organism":"http://purl.uniprot.org/core/organism",
       "has_gene_template":"http://purl.obolibrary.org/obo/pr#has_gene_template",
       "fullname": 
       {
