@@ -15,19 +15,19 @@
       },
 	   "organism":"http://purl.uniprot.org/core/organism",
       "has_gene_template":"http://purl.obolibrary.org/obo/pr#has_gene_template",
-      "hasRelatedSynonym": 
+      "fullname": 
       {
-        "@id": "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+        "@id": "http://purl.uniprot.org/core/fullname",
         "@type": "xsd:string"
       },
-      "label": 
+      "prefLabel": 
       {
-        "@id": "http://www.w3.org/2002/07/owl#label",
+        "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
         "@type": "xsd:string"
       },
-      "hasExactSynonym": 
+      "altLabel": 
       {
-        "@id": "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+        "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
         "@type": "xsd:string"
       },
       "classifiedWith":"http://purl.uniprot.org/core/classifiedWith"
