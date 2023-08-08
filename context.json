@@ -2,7 +2,7 @@
     "@context":
      {
       "xsd": "http://www.w3.org/2002/07/owl#",
-      "uniprot": "http://purl.uniprot.org/core",
+      "uniprot": "http://purl.uniprot.org/core/",
       "hasDbXref": 
       {
         "@id": "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
