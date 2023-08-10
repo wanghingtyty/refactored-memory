@@ -1,35 +1,82 @@
 {
-    "@context":
-     {
-      "xsd": "http://www.w3.org/2002/07/owl#",
-      "uniprot": "http://purl.uniprot.org/core/",
-      "hasDbXref": 
-      {
-        "@id": "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-        "@type": "xsd:string"
-      },
-      "mnemonic": 
-      {
-        "@id": "http://purl.uniprot.org/core/mnemonic",
-        "@type": "xsd:string"
-      },
-      "organism":"http://purl.uniprot.org/core/organism",
-      "has_gene_template":"http://purl.obolibrary.org/obo/pr#has_gene_template",
-      "fullname": 
-      {
-        "@id": "http://purl.uniprot.org/core/fullname",
-        "@type": "xsd:string"
-      },
-      "prefLabel": 
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
-        "@type": "xsd:string"
-      },
-      "altLabel": 
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
-        "@type": "xsd:string"
-      },
-      "classifiedWith":"http://purl.uniprot.org/core/classifiedWith"
+    "@context": {
+        "id": "@id",
+        "type": "@type",
+        "hasDbXref": {
+            "@id": "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+            "@type": "xsd:string"
+        },
+        "mnemonic": {
+            "@id": "http://purl.uniprot.org/core/mnemonic",
+            "@type": "xsd:string"
+        },
+        "organism": {
+            "@id": "http://purl.uniprot.org/core/organism",
+            "@type": "@id"
+        },
+        "has_gene_template": {
+            "@id": "http://purl.obolibrary.org/obo/pr#has_gene_template",
+            "@type": "@id"
+        },
+        "fullname": {
+            "@id": "http://purl.uniprot.org/core/fullname",
+            "@type": "xsd:string"
+        },
+        "prefLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@type": "xsd:string"
+        },
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@type": "xsd:string"
+        },
+        "isPrimaryTopicOf": {
+            "@id": "http://xmlns.com/foaf/0.1/isPrimaryTopicOf",
+            "@type": "@id"
+        },
+        "description": {
+            "@id": "http://purl.org/dc/elements/1.1/description",
+            "@type": "xsd:string"
+        },
+        "title": {
+            "@id": "http://purl.org/dc/elements/1.1/title",
+            "@type": "xsd:string"
+        },
+        "is_about": {
+            "@id": "http://purl.obolibrary.org/obo/IAO_0000136",
+            "@type": "@id"
+        },
+        "mentionsExpressionStrengthPresent": {
+            "@id": "http://semdeep.org/formats/InOwl/DeS#mentionsExpressionStrengthPresent",
+            "@type": "@id"
+        },
+        "mentionsExpressionStrengthAbsent": {
+            "@id": "http://semdeep.org/formats/InOwl/DeS#mentionsExpressionStrengthAbsent",
+            "@type": "@id"
+        },
+        "mentionsDifferentialExpressionUp": {
+            "@id": "http://semdeep.org/formats/InOwl/DeS#mentionsDifferentialExpressionUp",
+            "@type": "@id"
+        },
+        "mentionsDifferentialExpressionDown": {
+            "@id": "http://semdeep.org/formats/InOwl/DeS#mentionsDifferentialExpressionDown",
+            "@type": "@id"
+        },
+        "mentionsDifferentialExpressionUnmodified": {
+            "@id": "http://semdeep.org/formats/InOwl/DeS#mentionsDifferentialExpressionUnmodified",
+            "@type": "@id"
+        },
+        "mentionsSpecies": {
+            "@id": "http://semdeep.org/formats/InOwl/DeS#mentionsSpecies",
+            "@type": "@id"
+        },
+        "mentionsDiseaseOrModel": {
+            "@id": "http://semdeep.org/formats/InOwl/DeS#mentionsDiseaseOrModel",
+            "@type": "@id"
+        },
+        "mentionsBiomaterial": {
+            "@id": "http://semdeep.org/formats/InOwl/DeS#mentionsBiomaterial",
+            "@type": "@id"
+        }
     }
 }
