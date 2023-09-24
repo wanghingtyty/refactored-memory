@@ -76,7 +76,7 @@
         },
         "mentionsBiomaterial": {
             "@id": "http://semdeep.org/formats/InOwl/DeS#mentionsBiomaterial",
-            "@type": "@id"
+            "@type": "xsd:string"
         }
     }
 }
